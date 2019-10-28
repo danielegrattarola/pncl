@@ -1,0 +1,88 @@
+body {
+    margin: 0 !important;
+    font-family: sans-serif;
+    background-color: #f8f8f8 !important;
+    color: #666666;
+}
+
+canvas {
+  width: 100% !important;
+}
+
+/* GRID */
+#wrapper {
+}
+
+.container-fluid {
+  padding: 1em 2em;
+  margin: 0 0 4em 0;
+}
+
+.plot {
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+}
+
+.plot:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* NAVBAR */
+ul.topnav {
+  font-size: 1.3em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li.right {float: right;}
+ul.topnav li.center {margin: auto;}
+
+ul.topnav li a.rounded {
+  border-radius: 100px !important;
+  margin: 10px;
+  padding: 4px 16px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+}
+
+ul.topnav li a.rounded:hover {
+  box-shadow: 0 4px 8px 0 rgba(240, 139, 75, 0.2), 0 6px 20px 0 rgba(240, 139, 75, 0.19);
+}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #f8f8f8;
+  color: #666666;
+  text-decoration: none;
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+  overflow: visible;
+}
+
+.color-1 {
+  background-color: rgba(75, 192, 192, 1);
+}
+
+.color-2 {
+  background-color: rgba(240, 139, 75, 1);
+}
+
+.color-3 {
+  background-color: rgba(75, 192, 75, 1);
+}

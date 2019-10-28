@@ -1,0 +1,107 @@
+body {
+  margin: 0 !important;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.9em;
+  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
+  color: #666666;
+}
+
+a {
+  color: rgba(240, 139, 75, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #f8f8f8 !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+}
+
+pre > code {
+  font-size: 1em !important;
+}
+
+code {
+  font-family: monospace !important;
+  font-size: 1.2em !important;
+}
+
+pre:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* GRID */
+#wrapper {
+  margin: auto;
+  padding: 0em 1em 1em 1em;
+  max-width: 600px;
+}
+
+.plot {
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+}
+
+.plot:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* NAVBAR */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li.right {float: right;}
+
+ul.topnav li a.rounded {
+  border-radius: 100px !important;
+  margin: 10px;
+  padding: 4px 16px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+}
+
+ul.topnav li a.rounded:hover {
+  box-shadow: 0 4px 8px 0 rgba(240, 139, 75, 0.2), 0 6px 20px 0 rgba(240, 139, 75, 0.19);
+}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #f8f8f8;
+  color: #666666;
+  text-decoration: none;
+  -webkit-transition: box-shadow 0.5s; /* Safari prior 6.1 */
+  transition: box-shadow 0.5s;
+  overflow: visible;
+}
+
+.color-1 {
+  background-color: rgba(75, 192, 192, 1);
+}
+
+.color-2 {
+  background-color: rgba(240, 139, 75, 1);
+}
+
+.color-3 {
+  background-color: rgba(75, 192, 75, 1);
+}
