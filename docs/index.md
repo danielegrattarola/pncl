@@ -4,7 +4,7 @@ layout: default
 ---
 ## Welcome to Pencil  <i class="fas fa-pencil-alt"></i>
 
-Pencil is a small Python library to create plots in the browser using [Charts.js](https://chartjs.org).
+Pencil is a small Python library to create plots in the browser using [Chart.js](https://chartjs.org).
 
 Pencil makes it easy to draw your charts in a dynamic and responsive grid, and lets you update your plots live as the data is created. 
 
